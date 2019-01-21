@@ -1,0 +1,14 @@
+start = news
+news = element news{head, body}
+head = element head{headLine+, image*, byLine, info*, dateLine}
+body = element body{p+ | subHead*}
+subHead = element subHead {text}
+headLine = element headLine{text}
+image = element image {text}
+byLine = element byLine{text}
+info = element info{text}
+dateLine = element dateLine{text}
+p = element p {mixed {person}}
+person = element person {ref, text}
+ref = attribute ref {"#McCandless_B" | "#Noble_J"}
+
