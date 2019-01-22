@@ -1,0 +1,12 @@
+start = letter
+letter = element letter {Line*}
+Line = element Line {n, mixed{(Emotion | definition | description | currency)*}}
+n = attribute n {xsd:integer}
+Emotion = element Emotion {feeling, text}
+feeling = attribute feeling {"emptiness" | text}
+definition = element definition{word,text}
+word = attribute word {text | "slang"}
+description = element description{looks, text}
+looks = attribute looks {"nice" | text}
+currency = element currency {money, text}
+money  = attribute money {"pound" | text}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="SchemaHW1.rnc" type="application/relax-ng-compact-syntax"?>
+<letter>
+    <Line n="1">Dearest of All Boys, Your letter was delightful, red and yellow wine to me; but I am
+            <Emotion feeling="sad">sad and out of sorts.</Emotion></Line>
+    <Line n="2">Bosie, you must not make scenes with me. <Emotion feeling="emptiness">They kill me,
+            they wreck the loveliness of life.</Emotion></Line>
+    <Line n="3">I cannot see you, so Greek and gracious, distorted with passion.</Line>
+    <Line n="4">I cannot listen to your curved lips saying hideous things to me.</Line>
+    <Line n="5">I would sooner be blackmailed by every <definition word="slang">renter ["renter"was a
+            slang term for male prostitutes]</definition> in London than to have you bitter, unjust,
+        hating.</Line>
+    <Line n="6">You are the divine thing I want, the thing of <description looks="nice">grace and
+            beauty;</description> but I don't know how to do it.</Line>
+    <Line n="7">Shall I come to Salisbury? My bill here is <currency money="pounds">49
+            pounds</currency> for a week.</Line>
+    <Line n="8">I have also got a new sitting-room over the Thames.</Line>
+    <Line n="9">Why are you not here, my dear, my wonderful boy?</Line>
+    <Line n="10">I <Emotion feeling="fear">fear</Emotion> I must leave; no money, no credit, and a
+        heart of lead.</Line>
+    <Line n="11">Your own, Oscar</Line>
+</letter>
