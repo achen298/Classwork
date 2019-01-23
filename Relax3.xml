@@ -1,24 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="chenSchemaHW2.rnc" type="application/relax-ng-compact-syntax"?>
 <xml>
     <head>
-        <Intro>The following letter was introduced in Wilde's libel trial by <person>sir Edward Clark,
-            Wilde</person>'s attorney. Although the letter lends support to the defense case, Clark chose to
+        <Intro>The following letter was introduced in Wilde's libel trial by <person ref="Wilde_E">sir Edward Clark,
+            Wilde</person>'s attorney. Although the letter lends support to the defense case, <person ref="Wilde_E">Clark</person> chose to
             introduce the letter to prevent the defense from introducing the letter in a more
             dramatic fashion during its case.</Intro>
     </head>
     <body>
-        <P><date when="January-1893">January 1893</date>, <location>Babbacombe Cliff</location></P>
+        <P><date when="January-1893">January 1893</date>, <location where="Europe">Babbacombe Cliff</location></P>
         <P> My Own Boy,</P>
-        <P>Your sonnet is quite lovely, and it is a marvel that those red-roseleaf lips of yours
+        <P>Your sonnet is quite lovely, and it is a marvel that those <description color="red-roseleaf">red-roseleaf lips</description> of yours
             should be made no less for the madness of music and song than for the madness of
-            kissing. Your slim gilt soul walks between passion and poetry. I know Hyacinthus, whom
-            Apollo loved so madly, was you in Greek days. Why are you alone in
-                <location>London</location>, and when do you go to <location>Salisbury</location>?
+            kissing. Your slim gilt soul walks between passion and poetry. I know <god mythical="Greek">Hyacinthus</god>, whom
+            <god mythical="Greek">Apollo</god> loved so madly, was you in Greek days. Why are you alone in
+                <location where="Europe">London</location>, and when do you go to <location>Salisbury</location>?
             Do go there to cool your hands in the grey twilight of Gothic things, and come here
             whenever you like. It is a lovely place and lacks only you; but go to
-                <location>Salisbury</location> first.</P>
-        <P>Always, with undying love,</P>
-        <P>Yours, <person>Oscar</person></P>
+                <location where="Europe">Salisbury</location> first.</P>
+        <P>Always, with <emotion feeling="love">undying love</emotion>,</P>
+        <P>Yours, <person ref="Oscar">Oscar</person></P>
     </body>
 
 </xml>
