@@ -1,0 +1,22 @@
+start = news
+news = element news{head,body}
+head = element head {mixed{(date | location | measure | species)*}}
+date = element date{when, text}
+when = attribute when {xsd:date}
+location = element location {where, text}
+where  = attribute where {"America" | text}
+measure = element measure {mixed{(unit | length | height | weight)*}}
+unit = attribute unit {mixed{("m" | "lb" | "minutes")*}}
+length = attribute length {"1.2" | text}
+height = attribute height {".91" | text}
+weight  = attribute weight {"440" | text}
+species = element species {animal, text}
+animal = attribute animal {"primate" | text}
+body = element body {mixed{(count | emotion | people)*}}
+count = element count {time}
+time = attribute time {"10" | text}
+emotion = element emotion {feeling, text}
+feeling = attribute feeling {"feeling" | "defensive" | text}
+people = element people {workers, text}
+workers = attribute workers {"zoo" | "firefighters" | text}
+

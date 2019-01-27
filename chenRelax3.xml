@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="chenSchemaHW3.rnc" type="application/relax-ng-compact-syntax"?>
+<news>
+    <head>On <date when="2016-05-28">May 28, 2016</date>, a three-year-old boy visiting the <location where="America">Cincinnati Zoo</location> fell into the moat at
+        the <location where="America">Gorilla World habitat</location>.[5][6] Witnesses said they heard the child say he wanted to go
+        into the gorilla enclosure.[7] The boy then climbed a <measure unit="m" height=".91">3-foot-tall (0.91 m)</measure> fence, crawled
+        through <measure unit="m" length="1.2">4 feet (1.2 m)</measure> of bushes, and then fell <measure unit="m" height="4.6">15 feet (4.6 m)</measure> into a moat of shallow
+        water. Zoo officials immediately signaled for the three gorillas in the habitat to return
+        inside, and two females did so. However, the third gorilla, the inquisitive <measure unit="lb" weight="440">440 pound</measure> <species animal="primate">male
+        silverback</species>, Harambe, climbed down into the moat to investigate the child splashing in the
+        water.[6] 
+    </head>
+    <body>Over the next <count unit="minutes" time="10">10 minutes</count>, Harambe became increasingly <emotion feeling="confused">agitated and disoriented</emotion> by the
+        screams of onlookers.[8][9] He dragged the child through the water, occasionally propping
+        him up when he sat, or pushing him down when he stood.[8] Harambe exhibited <emotion feeling="defensive">strutting
+        behavior—walking around with legs and arms stiffly extended to appear bigger—a bluffing
+        move</emotion>, though one with inherent danger should he throw or drag the boy around too roughly.[9]
+        Harambe then carried the boy up a ladder out of the moat onto dry land. Afraid for the boy's
+        life, <people workers="zoo">zoo officials</people> made the decision to kill the gorilla, doing so with a single rifle
+        shot. <people workers="firefighters">Cincinnati firefighters</people> said the boy was between Harambe's legs when the shot was
+        fired.[6] Harambe was killed one day after his 17th birthday.[8]
+    </body> 
+</news>
